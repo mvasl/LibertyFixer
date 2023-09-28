@@ -1,0 +1,4 @@
+github.com/gonutz/d3d9 v1.2.2 h1:dAmmLVIEnLth9jJdxgZYKi5p7AbvbzdM0B8SOaIE/Vc=
+github.com/gonutz/d3d9 v1.2.2/go.mod h1:q74g3QbR280b+qYauwEV0N9SVadszWPLZ4l/wHiD/AA=
+golang.org/x/sys v0.12.0 h1:CM0HF96J0hcLAwsHPJZjfdNzs0gftsLfgKt57wWHJ0o=
+golang.org/x/sys v0.12.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
