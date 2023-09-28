@@ -11,7 +11,7 @@ Nvidia/Intel GPU's support may come at some later time, but I hope CDPR will fix
 
 Basically, get the LibertyFixer.exe from the [releases](https://github.com/mvasl/LibertyFixer/releases) section or build it from source if you want.
 
-Drop LibertyFixer.exe into your <CP2077 Dir>\bin\x64 folder where Cyberpunk2077.exe is 
+Drop LibertyFixer.exe into your @CP2077 Dir@\bin\x64 folder where Cyberpunk2077.exe is 
 and launch LibertyFixer.exe instead of the game every time until there is a proper fix from CDPR. 
 
 ## How to build from source
