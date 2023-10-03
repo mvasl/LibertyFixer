@@ -17,7 +17,7 @@ func main() {
 	case err != nil || gpuType == gpu.TypeUnknown:
 		w32.MessageBox(0, w32Str(err.Error()), w32Str("GPU Detection"), w32.MB_OK)
 		os.Exit(1)
-	case gpuType == gpu.TypeIntel || gpuType == gpu.TypeNvidia:
+	case gpuType == gpu.TypeIntel:
 		w32.MessageBox(0, w32Str("Your GPU is not supported yet"), w32Str(""), w32.MB_OK)
 		os.Exit(1)
 	}
