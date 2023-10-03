@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gonutz/d3d9"
+	d3d9 "github.com/gonutz/d3d9"
 )
 
 type Type string
@@ -35,11 +35,13 @@ func DetectGPUType() (Type, error) {
 	}
 
 	switch ident.VendorId {
-	case vendorIdAMD1: fallthrough
+	case vendorIdAMD1:
+		fallthrough
 	case vendorIdAMD2:
 		return TypeAMD, nil
+	case vendorNv:
+		return TypeNvidia, nil
 	}
 
 	return TypeUnknown, errors.New("your GPU in not supported by this tool")
 }
-
