@@ -1,3 +1,5 @@
+# The underlying problem with shaders seems to be resolved in v2.11, this fix is now obsolete
+
 # LibertyFixer
 
 A tool to (improperly) fix Cyberpunk 2077 crashing after the Phantom Liberty update.
